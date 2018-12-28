@@ -1,0 +1,35 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    maxActive: 80
+    minIdle: 5
+    username: root
+    password: jason
+    url: jdbc:mysql://127.0.0.1:3306/tale?useSSL=false&useUnicode=true&characterEncoding=utf-8
+
+
+  thymeleaf:
+    cache: false
+    check-template-location: true
+    content-type: text/html
+    encoding: UTF-8
+    mode: HTML5
+    prefix: classpath:/templates/
+    suffix: .html
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.my.blog.website.dto, com.my.blog.website.model
+  configuration:
+    map-underscore-to-camel-case: true
+
+
+pagehelper:
+  helperDialect: mysql
+  params: count=countSql
+  reasonable: true
+  support-methods-arguments: true
