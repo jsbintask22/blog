@@ -8,8 +8,8 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>clydeocean-blog</name>
-    <description>clydeocean-blog</description>
+    <name>jsbintask22-blog</name>
+    <description>jsbintask22-blog</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
