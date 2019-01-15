@@ -3,7 +3,7 @@
 准备改成springboot版本，又碰巧发现<a href="https://github.com/ZHENFENG13/My-Blog">My Blog</a>已经改了并且开源了。于是直接fork，精简了原有的代码，配置，并且加了一些新功能。喜欢的可以直接fork哦。
 
 #### tips
-演示站点：http://blog.jsbintask.cn
+演示站点：[https://jsbintask.cn](https://jsbintask.cn)
 
 #### 联系作者
 
